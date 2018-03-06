@@ -1,3 +1,5 @@
+// Public domain. All rites reversed.
+
 package main
 
 import (
@@ -6,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/soniakeys/ddate/ddate"
+	"github.com/soniakeys/ddate/v2"
 )
 
 func main() {

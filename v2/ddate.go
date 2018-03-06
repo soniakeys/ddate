@@ -1,3 +1,5 @@
+// Public domain. All rites reversed.
+
 // Package ddate implements Discordian dates with an API modeled after the time
 // package of the Go standard library.
 package ddate
@@ -8,14 +10,14 @@ import (
 	"time"
 )
 
-// Predefined formats for DiscDate.Format
+// Predefined formats for Date.Format
 const (
 	DefaultFmt = "Pungenday, Discord 5, 3131 YOLD"
 	OldFmt     = `Today is Pungenday, the 5th day of Discord in the YOLD 3131
 Celebrate Mojoday`
 )
 
-// Formats passed to DiscDate.Format are protypes for formated dates.
+// Formats passed to Date.Format are protypes for formated dates.
 // Format replaces occurrences of Prototype elements (the constant strings
 // listed here) with values corresponding to the date being formatted.
 // If the date is St. Tib's Day, the string from the first date element
